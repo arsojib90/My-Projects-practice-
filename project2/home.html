@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Form</title>
+</head>
+<body>
+   <div class="first">
+      <b>My Form Page</b>
+  </div>
+
+    <form>
+        
+      <div class="form_container">
+        <div class="left">
+           <label> First Name <br> </label><input type="text" placeholder="Enter your First name ">
+        </div>
+
+        <div class="left">
+            <label> Last Name  </label><input type="text" placeholder="Enter your Last name ">
+         </div>
+
+         <div class="left">
+            <label> Email  </label><input type="email" placeholder="Enter your email  ">
+         </div>
+
+         <div class="left">
+            <label>Job Role </label>
+            <input type="text" list="role" placeholder="Enter your role">
+            <datalist id="role">
+                <option value="CEO">
+                <option value="Manager">
+                <option value="Chairman">
+                <option value="Gaurd">
+                <option value="ETC">
+
+
+            </datalist>
+         </div>
+
+         <div>
+            <label>Enter your messege here </label>
+            <textarea colspan="30" rowspan="5" ></textarea>
+         </div>
+       
+         
+         <div>
+            <label>Enter your city </label>
+            <input type="text" list="city" placeholder="Enter your role">
+            <datalist id="city">
+                <option value="Dhaka">
+                <option value="Chittagong">
+                <option value="Gaxipur">
+                <option value="Khulna">
+                <option value="Barishal">
+                <option value="Rangpur">
+                <option value="Rajshahi">
+               
+            </datalist>
+         </div>
+         <div>
+            <label>Enter your pincode</label>
+            <input type="password" placeholder="Enter your pin here">
+         </div>
+
+         <div>
+            <label>Enter your Birthdate</label>
+            <input type="date" placeholder="Enter your birthdate">
+         </div>
+
+         <div>
+            <label>Upload your file</label>
+            <input type="file" placeholder="upload your file">
+         </div>
+      </div>
+    </form>
+</body>
+</html>

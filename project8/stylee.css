@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior:smooth;
+  /* padding: 5px; */
+    /* margin-left: 5px; */
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    list-style: none;
+}
+body{
+    display: flex;
+    gap: 10px;
+}
+main{
+    margin-left: 220px;
+    margin-top: 50px;
+    padding: 10px;
+}
+header{
+    position:fixed;
+    width: 180px;
+    height: 100vh;
+    border-bottom: 1px solid #ccc;
+    border-right:1px solid #ccc ;
+    /* overflow-y:scroll;
+    overflow-x:hidden; */
+}
+
+/* header {
+    border: 1px solid #ccc;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  } */
+header h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+  }
+  nav ul li:hover {
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+  }
+main h2{
+    font-size: 22px;
+    margin-top:10px;
+    border-bottom: 1px solid #ccc;
+
+    /* margin-bottom: 10px; */
+}
+main article{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+  
+section article ul {
+    margin-left: 20px;
+  }
+  section article ul li {
+    margin-bottom: 10px;
+  }
+  section article p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+article p{
+    margin-top: 10px;
+}

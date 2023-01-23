@@ -1,0 +1,14 @@
+html{
+    background-color: rgb(226, 213, 196);
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+.name,.year{
+    text-align: center;
+    color: #180C0A ;
+}
+
+img{
+    border-radius: 15%;
+}

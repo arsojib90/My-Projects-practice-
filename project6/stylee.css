@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* :root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+header {
+    background-color:rgb(65, 7, 173);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 4%;
+  }
+  section {
+    scroll-margin: 50px;
+  }
+a{
+    color: white;
+    display:inline-block;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+}
+ul{
+  list-style: none;
+}
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+nav ul li:hover {
+  border-bottom: 2px solid white;
+  transition: 0.01s ease-in;
+}
+.hero-section{
+  background-image: url(hero_image.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center; 
+}
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section h1{
+  font-size: 96px;
+}
+
+.hero-section h3{
+  font-size: 32px;
+}
+
+
+.music-section {
+    padding-top: 50px;
+    background:rgb(39, 20, 90);
+
+}
+.music-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.primary-btn{
+  background-color: rgb(226, 11, 11);
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+.primary-btn:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+.ipad-iphone-img{
+  margin-top: -400px;
+  top: 400px;
+  position: relative;
+}
+.about-music {
+  margin-top: 500px;
+  text-align: center;
+  
+}
+.about-music h3,p{
+  margin-bottom: 40px;
+}
+.about-music h3:hover{
+  font-size: 19px;
+}
+.about-music p:hover{
+  font-size: 16.1px;
+}
+.secondary-btn{
+  background-color:rgb(77, 50, 150);
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 50px;
+}
+.secondary-btn:hover{
+  transition: 0.2s ease-in-out;
+  background-color: rgb(111, 77, 206);
+}
+.mac-img{
+  margin-bottom: 100px;
+}
+.video-section{
+  background-image: url("video.png");
+  min-height:800px;
+  color:white;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-bottom: 100px ;
+}
+
+.video-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+
+}
+
+.hero-section,
+.video-section {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift-section{
+  display: flex;
+  gap: 50px;
+  margin: 100px 0;
+}
+.gift-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sojib{
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+.footer-upper {
+  background-color:rgb(43, 18, 105);
+  padding: 20px;
+
+}
+.footer-upper .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer-upper h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+.footer-lower {
+  background-color:rgb(39, 26, 71);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  }
+.footer-lower p{
+  margin-top: 10px;
+}
+.gift-section {
+  scroll-margin: 120px;
+}
+
+
+@media (min-width:600px) {
+  .music-section h4{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .gift-section{
+    margin: 10px;
+  }
+}
+  
+ 
